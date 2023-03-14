@@ -49,9 +49,7 @@ color: var(--headings-color);
 
 /* Navigation */
 .nav-list{
-    list-style: none;
-    
-    
+    list-style: none; 
 }
 
 .nav-link{
@@ -71,7 +69,7 @@ color: var(--headings-color);
 
 
 /* address */
-.address-mail, .address-tel{
+.address-text{
     font-style: normal;
     color: var(--text-color);
     text-decoration: none;
@@ -82,9 +80,7 @@ color: var(--headings-color);
     letter-spacing: 0.02em;
 }
 
-.address-mail:hover, .address-mail:focus,
-.address-tel:hover,
-.address-tel:focus {
+.address-text:hover, .address-text:focus{
     color: var(--hover-color);;
 }
 
@@ -93,6 +89,8 @@ color: var(--headings-color);
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
     text-align: center;
 
 }
@@ -126,7 +124,7 @@ color: var(--headings-color);
 }
 
 .button-hero:hover, .button-hero:focus {
-    background-color: var(--hover-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
@@ -153,8 +151,7 @@ color: var(--headings-color);
 /* Samples */
 
 .samples-list{
-     list-style: none;
-    text-transform: capitalize;
+    list-style: none;
 }
 
 /* Team Section */
@@ -202,8 +199,11 @@ color: var(--background-color);
 
 .filters-text{
     color: var(--primary-brand-color);
-    background-color: var(--accent-color);
-    font-weight: 600;
+    background-color: var(--background-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 
 }
@@ -211,6 +211,7 @@ color: var(--background-color);
 .filters-text:hover, .filters-text:focus{
     color: var(--magic-color);
     background-color: var(--hover-color);
+    cursor: pointer;
 }
 
 /* Portfolio Work */
