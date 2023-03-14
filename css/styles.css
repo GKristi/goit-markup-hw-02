@@ -63,19 +63,21 @@ color: var(--headings-color);
    color: var(--hover-color);
 }
 
-.nav-link.link-current{
+/* .nav-link.link-current{
     color: var(--primary-brand-color);
-}
+} */
 
 
 /* address */
 .address-text{
-    font-style: normal;
-    color: var(--text-color);
     text-decoration: none;
+    color: var(--text-color);
+    
 }
 
 .address-list{
+ 
+    font-style: normal;
     list-style: none;
     letter-spacing: 0.02em;
 }
@@ -220,10 +222,16 @@ color: var(--background-color);
     list-style: none;
 }
 
+.project-link{
+    text-decoration: none;
+}
+
 .projects-direction{
     color: var(--headings-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     
 }
+
