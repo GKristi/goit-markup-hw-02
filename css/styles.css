@@ -69,6 +69,10 @@ color: var(--headings-color);
 
 
 /* address */
+.nav-address{
+    font-style: normal;
+}
+
 .address-text{
     text-decoration: none;
     color: var(--text-color);
@@ -76,8 +80,6 @@ color: var(--headings-color);
 }
 
 .address-list{
- 
-    font-style: normal;
     list-style: none;
     letter-spacing: 0.02em;
 }
