@@ -29,22 +29,17 @@ body{
 
 /* Logo */
 .logo{
-text-decoration: none;
-}
-
-.logo-web, .logo-studio{
-    font-family: 'Raleway';
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    color: var(--primary-brand-color);
 }
 
-.logo-web{
- color: var(--primary-brand-color);
-}
+
 
 .logo-studio {
 color: var(--headings-color);
