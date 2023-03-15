@@ -126,7 +126,7 @@ color: var(--headings-color);
 }
 
 .button-hero:hover, .button-hero:focus {
-    background-color: var(--hover-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
