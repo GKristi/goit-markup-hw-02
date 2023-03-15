@@ -8,9 +8,6 @@
 --magic-color: #ffffff;
 --accent-color: #E7E9FC;
 --background-color: #F4F4FD;
-
-
-
 }
 
 body{
@@ -20,8 +17,6 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
 }
 
 
@@ -54,9 +49,11 @@ color: var(--headings-color);
 
 .nav-link{
     color: var(--headings-color);
-    font-weight: 500;
-    text-decoration: none;
     font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .nav-link:hover, .nav-link:focus{
@@ -74,14 +71,15 @@ color: var(--headings-color);
 }
 
 .address-text{
-    text-decoration: none;
     color: var(--text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
     
 }
 
 .address-list{
     list-style: none;
-    letter-spacing: 0.02em;
 }
 
 .address-text:hover, .address-text:focus{
@@ -128,25 +126,22 @@ color: var(--headings-color);
 }
 
 .button-hero:hover, .button-hero:focus {
-    color: var(--hover-color);
+    background-color: var(--hover-color);
     cursor: pointer;
 }
 
 
 /* Features Section */
 
-.feature-direction, .team-name{
+.feature-direction, .team-name, .projects-direction{
     color: var(--headings-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-.feature-text, .team-function{
-    width: 264px;
-    height: 72px;
-}
 
 .feature-list{
     list-style: none;
@@ -172,12 +167,10 @@ color: var(--headings-color);
     background-color: var(--magic-color);
 }
 
-.team-name{
-    font-weight: 500;
+.team-functioon{
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 }
-
 
 /* Footer Section */ 
 
@@ -191,6 +184,8 @@ color: var(--background-color);
 
 .footer-advise{
     color: var(--magic-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -228,14 +223,14 @@ color: var(--background-color);
     text-decoration: none;
 }
 
-.projects-direction{
+/* .projects-direction{
     color: var(--headings-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     
-}
+} */
 
 .projects-text{
     font-size: 16px;
