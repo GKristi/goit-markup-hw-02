@@ -57,7 +57,7 @@ color: var(--headings-color);
 }
 
 .nav-link:hover, .nav-link:focus{
-   color: var(--hover-color);
+    color: var(--hover-color);
 }
 
 /* .nav-link.link-current{
@@ -142,6 +142,11 @@ color: var(--headings-color);
     text-transform: capitalize;
 }
 
+.feature-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
 .feature-list{
     list-style: none;
@@ -167,7 +172,7 @@ color: var(--headings-color);
     background-color: var(--magic-color);
 }
 
-.team-functioon{
+.team-function{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
